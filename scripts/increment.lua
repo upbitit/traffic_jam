@@ -24,7 +24,7 @@ else
         incr_amount = arg_amount - drift_amount
         incr_magnitude = -incr_amount
       else
-        incr_amount = arg_amount + drift_amount
+        incr_amount = arg_amount
         incr_magnitude = incr_amount
       end
       if incr_magnitude <= 0
